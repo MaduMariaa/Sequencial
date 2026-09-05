@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Calculador</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="container">
+        <h1>Calcular Soma</h1>
+        <input type="number" id="numero1" placeholder="Digite o primeiro número">
+        <input type="number" id="numero2" placeholder="Digite o segundo número">
+
+        <button onclick="somar()">Calcular Soma</button>
+
+        <h2 id="resultado1">Resultado: </h2>
+    </section>
+    
+    <section class="container">
+        <h1>Converter <br>Celsius>Fahrenheit</h1>
+        <input type="number" id="celsius" placeholder="Digite a temperatura em Celsius">
+
+        <button onclick="converter()">Converter</button>
+
+        <h2 id="resultado2">Resultado</h2>
+    </section>
+
+    <section class="container">
+        <h1>Calcular o Volume de um Cilindro</h1>
+        <input type="text" id="raio" placeholder="Digite o raio em cm">
+        <input type="text" id="altura" placeholder="Digite a altura em cm">
+
+        <button onclick="calcularCilindro()">Calcular</button>
+        <h2 id="resultado3">Resultado</h2>
+    </section>
+
+    <section class="container">
+        <h1>Calcular Volume de um Prisma</h1>
+        <input type="text" id="comprimento" placeholder="Digite o comprimento em cm">
+        <input type="text" id="largura" placeholder="Digite a largura em cm">
+        <input type="text" id="altura1" placeholder="Digite a altura em cm">
+
+        <button onclick="calcularPrisma()">Calcular</button>
+
+        <h2 id="resultado4">Resultado</h2>
+    </section>
+    <script src="javascript/script.js"></script>
+</body>
+</html>
